@@ -1,0 +1,13 @@
+body {
+  margin-right: auto; /* Автоотступ справа */
+  margin-left: auto; /* Автоотступ слева */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Шрифты */
+}
+
+.block {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #007765;
+  color: white;
+}

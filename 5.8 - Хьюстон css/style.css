@@ -1,0 +1,102 @@
+body {
+    background: #2c2c2c; /* Цвет заднего фона страницы */
+    color: #FFFFFF; /* Цвет текста на странице */
+    margin-right: auto; /* Автоотступ справа */
+    margin-left: auto; /* Автоотступ слева */
+    width: 96%; /* Ширина контента */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Шрифты */
+}
+
+h1, h2 {
+    font-size: 32px; /* Размер текста заголовка */
+    margin-top: 80px; /* Отступ сверху */
+    margin-bottom: 0px; /* Отступ снизу */
+    margin-right: auto; /* Отстуа справа */
+    margin-left: 50px; /* Отступ слева */
+}
+
+h3 {
+    font-size: 24px; /* Размер текста заголовка */
+    margin-top: 70px; /* Отступ сверху */
+    margin-bottom: 15px; /* Отступ снизу */
+    margin-right: auto; /* Отстуа справа */
+    margin-left: 50px; /* Отступ слева */
+}
+
+p {
+    text-indent: 20px; /* Отступ первой строки */
+    text-align: justify; /* Выравнивание по ширине */
+    margin: 10px; /* отступ */
+}
+
+.leftimg {
+    float: right; /* Обтекание текстом картинки */
+    clear: right; /* Прибивает к правому боку */
+    margin: 20px; /* Отступ */
+    margin-top: 5px ; /* Отступ сверху */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+table {
+    margin-top: 5%; /* Отступ сверху */
+    margin-bottom: 5%; /* Отступ снизу */
+    margin-right: auto; /* Отстуа справа */
+    margin-left: auto; /* Отступ слева */
+    text-align: center; /* Выравнивание текста по центру */
+    border: 1px solid white; /* Толщина, вид и цвет границ */
+    border-collapse: collapse; /* Отступ между ячейками */
+}
+
+th {
+    border: 1px solid white; /* Толщина, вид и цвет границ */
+}
+
+td {
+    border: 1px solid white; /* Толщина, вид и цвет границ */
+}
+
+tr {
+    border: 1px solid white; /* Толщина, вид и цвет границ */
+}
+
+table.one {
+    width: 74%; /* Ширина таблицы */
+    height: 120px; /* Высота таблицы */
+    margin-left: auto; /* Отступ слева */
+    margin-right: auto; /* Отступ справа */
+    margin-top: 100px; /* Отступ сверху */
+}
+
+table.two {
+    width: 50%; /* Ширина таблицы */
+    height: 600px; /* Высота таблицы */
+    margin-left: auto; /* Отступ слева */
+    margin-right: auto; /* Отступ справа */
+    margin-bottom: 50px; /* Отступ снизу */
+}
+table.three {
+    width: 50%; /* Ширина таблицы */
+    height: 500px; /* Высота таблицы */
+    margin-left: auto; /* Отступ слева */
+    margin-right: auto; /* Отступ справа */
+    margin-bottom: 50px; /* отступ снизу */
+}
+
+a:link {
+    color: white; /* Цвет текста */
+    text-decoration: none; /* Убирает подчеркивание */
+}
+
+a:hover { /* Для ссылки при наведении */
+    color: black; /* Цвет текста */
+    background-color: white; /* Цвет фона */
+    font-size: large; /* Увеличение текста */
+}
+
+#города-побратимы {
+    margin-top: 120px; /* Отступ сверху */
+}
+
+figcaption {
+    font-size: 12px; /* Размер подписи под картинками */
+}

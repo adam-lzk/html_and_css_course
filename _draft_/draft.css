@@ -1,0 +1,23 @@
+﻿body {
+    font-family: sans-serif;
+}
+
+.img1 {
+    width: 700px;
+    float: left;
+}
+
+.img2 {
+    height: 700px;
+    float: right;
+}
+
+.block1 {
+    font-size: 25px;
+    clear: none;
+}
+
+.block2 {
+    font-size: 25px;
+    clear: left;
+}

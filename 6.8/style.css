@@ -1,0 +1,99 @@
+.container1 {
+  border: 2px solid green;
+  width: 600px;
+}
+
+.left1 {
+  padding: 16px;
+  float: left;
+  background: violet;
+}
+
+.right1 {
+  padding: 16px;
+  float: right;
+  background: pink;
+}
+
+
+
+
+
+.container2 {
+  border: 2px solid green;
+  width: 600px;
+  margin-left: 800px;
+}
+
+.left2 {
+  padding: 16px;
+  float: left;
+  width: 100px;
+  background: violet;
+}
+
+.static2 {
+  padding: 16px;
+  background: pink;
+}
+
+
+
+
+
+.container3 {
+  padding: 8px;
+  border: 2px solid green;
+  width: 600px;
+  margin-top: 400px;
+}
+
+.left3 {
+  padding: 16px;
+  float: left;
+  width: 100px;
+  background: violet;
+}
+
+.static3 {
+  padding: 16px;
+  background: pink;
+}
+
+.bottom3 {
+  background: cyan;
+  width: 600px;
+}
+
+
+
+
+
+.container4 {
+  padding: 8px;
+  border: 2px solid green;
+  width: 600px;
+  margin-left: 800px;
+}
+
+.left4 {
+  padding: 16px;
+  float: left;
+  width: 100px;
+  background: violet;
+}
+
+.static4 {
+  padding: 16px;
+  background: pink;
+}
+
+.clear4 {
+  clear: both;
+}
+
+.bottom4 {
+  background: cyan;
+  width: 600px;
+  margin-left: 800px;
+}

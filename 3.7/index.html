@@ -1,0 +1,28 @@
+<!-- Структура файловой системы -->
+C:.
+├───Users
+│   └───admin
+│       └───Desktop
+│           └───Мой сайт
+│               ├───index.html
+│               ├───index.css
+│               ├───css
+│               │   └───normalize.css
+│               └───img
+│                   └───picture.jpg
+...
+
+<!-- Принцип работы относительных ссылок (в браузере можно не открывать) -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Мой сайт!!1</title>
+    <meta charset="UTF-8">
+    <link href="index.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Мама, я в интернете!</h1>
+    <img src="img/picture.jpg" title="Ето я">
+</body>
+</html>

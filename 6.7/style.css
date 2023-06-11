@@ -1,0 +1,43 @@
+.block1 { /* переполнение контента в блоке */
+    margin: 100px;
+    margin-top: 0;
+    background: red;
+    width: 100px;
+    height: 50px;
+  }
+
+  .block2 {
+    margin: 100px;
+    margin-top: 0;
+    background: red;
+    width: 100px;
+    height: 50px;
+    overflow: visible; /* отображается все содержание блока, даже за пределами установленной высоты и ширины */
+  }
+
+  .block3 {
+    margin: 100px;
+    margin-top: 0;
+    background: red;
+    width: 100px;
+    height: 50px;
+    overflow: hidden; /* отображается только область внутри блока, остальное будет скрыто */
+  }
+
+  .block4 {
+    margin: 100px;
+    margin-top: 0;
+    background: red;
+    width: 100px;
+    height: 50px;
+    overflow: scroll; /*  всегда добавляются полосы прокрутки, даже если контент помещается */
+  }
+
+  .block5 {
+    margin: 100px;
+    margin-top: 0;
+    background: red;
+    width: 100px;
+    height: 50px;
+    overflow: auto; /* полосы прокрутки добавляются только при необходимости */
+  }

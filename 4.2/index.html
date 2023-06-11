@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Формы в HTML </title>
+  </head>
+
+  <body>
+    <form name="f1" method="get" action="enter_data.php">
+    <input name="link" type="hidden" value="index.php" />
+    Логин: <br>
+    <input name="login" type="text" size="25" maxlength="30" value="" /> <br>
+    Пароль: <br />
+    <input name="pd" type="password" size="25" maxlength="30" value="" /> <br>
+    <input name="remember" type="checkbox" value="yes" /> Запомнить <br>
+    <input type="submit" name="enter" value="Вход" />
+    </form>
+
+    <p> . </p>
+    <p> . </p>
+    <p> . </p>
+    
+    <form>
+    Поле для ввода текста: <br>
+    <input type="text"> <br>
+    <p> </p>
+    Поле для ввода пароля: <br>
+    <input type="password"> <br>
+    <p> </p>
+    Галочка: <br>
+    <input type="checkbox"> <br>
+    <p> </p>
+    Выбор вырианта: <br>
+    <input type="radio" name="gender" value="male" checked> Мужской <br>
+    <input type="radio" name="gender" value="female"> Женский <br>
+    <input type="radio" name="gender" value="other"> Другой <br>
+    <p> </p>
+    Выбор файла: <br>
+    <input type="file"> <br>
+    <p> </p>
+    Сброс введенного: <br>
+    <input type="reset"> <br>
+    <p> </p>
+    Отправить введенное: <br>
+    <input type="submit"> <br>
+    <p> </p>
+    Кнопка: <br>
+    <button>Нажми на меня</button> 
+    </form>
+
+    <ul>
+      <li><b>Ввод E-Mail</b>, type="email". Текстовое поле, у которого на клавиатуре мобильных устройств появляется символ @.</li>
+        <p></p>
+      <li><b>Номер телефона</b>, type="tel". На мобильных устройствах открывается клавиатура с числами.</li>
+        <p></p>
+      <li><b>Ввод ссылки</b>, type="url".</li>
+        <p></p>
+      <li><b>Числовое поле</b>, type="number". Помимо клавиатуры с цифрами появляется возможность переключать значения поля. 
+        Атрибуты <b>min</b> и <b>max</b> определяют нижнее и верхнее возможное значение, <b>step</b> - шаг изменения, a <b>value</b> - начальное значение.</li>
+        <p></p>
+      <li><b>Числовой ползунок</b>, type="range". Появляются уже указанные атрибуты <b>min</b>, <b>max</b>, <b>step</b> и <b>value</b>.</li>
+        <p></p>
+      <li><b>Поиск</b>, type="search". Google Chrome добавляет крестик для очистки введенной строки. На мобильных устройствах появляется кнопка поиска.</li>
+    </ul>
+
+  </body>
+</html>

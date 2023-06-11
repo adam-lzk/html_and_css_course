@@ -1,0 +1,45 @@
+body {
+    background: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+  }
+  
+  .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 16px;
+    background: #fff;
+    font-size: 32px;
+  }
+  
+  .html-color {
+    background: lightsalmon;
+  }
+  
+  .hex-color {
+    background: #4287f5;
+  }
+  
+  .rgb-color {
+    background: rgb(255, 166, 231);
+  }
+  
+  .rgba-color {
+    background: rgba(0, 255, 0, 0.5);
+  }
+  
+  .hsl-color {
+    background: hsl(180, 100%, 50%);
+  }
+  
+  .hsla-color {
+    background: hsla(50, 100%, 50%, 0.9);
+  }
+  
+  .image {
+    background: url(https://3.bp.blogspot.com/-_ksEGvwCCRg/Ui5EE_59HII/AAAAAAAAAqs/ZgySYBLf8H8/s266/Torta+Chiffon.jpg);
+  }
